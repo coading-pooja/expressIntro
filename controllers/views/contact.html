@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+
+
+
+   
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li  class="main-header__item"><a href="/">Shop</a></li>
+                <li  class="main-header__item"><a href="/admin/addproduct">Add products</a></li>
+                <li  class="main-header__item"><a class="active" href="/contact">Contactus</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main class="form">
+         <div style="text-align: center;color: brown;">
+            <h2>Contact Forum</h2>
+            <p>We will contact you soon</p>
+         </div>
+        <form class="product-form" action="/success" method="POST">
+
+<div class="form-control">
+
+        <div class="text">
+                <label style="font-size: larger;font-weight: bold; margin-left: 10px;">Name</label><br>
+
+            <input type="text" name="Name">
+        </div>
+
+        <div class="number">
+            <label style="font-size: larger;font-weight: bold; margin-left: 10px;">Email</label><br>
+            <input type="email" name="Email-id">    
+        </div>  
+            <button type="submit">Submit</button><br>
+            
+</div>
+            
+
+        </form>
+    </main>
+    
+</body>
+</html>
