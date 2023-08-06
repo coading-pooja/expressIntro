@@ -1,0 +1,69 @@
+body
+{
+   padding: 5px;
+   margin: 10px;
+ }
+ .main-header
+ {
+    padding-top: 10px;
+    background-color: rgb(240, 221, 14);
+    border-bottom: 2px solid black;
+ 
+ }
+ .main-header__item-list
+ {
+    display: flex;
+    list-style: none;
+    height: 10px;
+    
+   
+    align-items: center;
+
+ }
+ .main-header__item a
+ {
+    text-decoration: none;
+    padding: 10px;
+    font-size: medium;
+   
+ }
+ .main-header__item a:hover,
+ .main-header__item a.active
+{
+   color: blueviolet;
+}
+.product-form
+{
+    padding: 2px;
+   
+   margin: 50px 100px 0 200px;
+}
+.form-control input
+{
+    padding: 2px;
+    width: 250px;
+    border:1px solid red;
+    cursor: pointer;
+
+}
+button:hover
+{
+
+width: max-content;
+background-color: green;
+border: none;
+color: white;
+
+
+cursor: pointer;
+
+}
+button
+{
+    margin: 5px;
+    padding: 2px;
+background-color: azure;
+border: 1px solid black;
+color: black;
+border-radius: 5px;
+}
